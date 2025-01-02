@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Chevrolet",
+        "model": "Camaro",
+        "year": 2016,
+        "type": "AMT",
+        "image": "https://pngimg.com/uploads/chevrolet/%D1%81hevrolet_PNG168.png"
+    },
+    {
+        "id": 2,
+        "name": "Ford",
+        "model": "Mustang",
+        "year": 2017,
+        "type": "AMT",
+        "image": "https://uiparadox.co.uk/public/templates/rapid-ride/assets/media/cars/iamge.png"
+    },
+    {
+        "id": 3,
+        "name": "Ford",
+        "model": "Mustang",
+        "year": 2017,
+        "type": "AMT",
+        "image": "https://uiparadox.co.uk/public/templates/rapid-ride/assets/media/cars/iamge3.png"
+    }
+]
