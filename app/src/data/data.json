@@ -1,26 +1,66 @@
 [
     {
         "id": 1,
-        "name": "Chevrolet",
-        "model": "Camaro",
+        "name": "honda odyssey",
+        "milage": "12km/h",
         "year": 2016,
-        "type": "AMT",
-        "image": "https://pngimg.com/uploads/chevrolet/%D1%81hevrolet_PNG168.png"
-    },
-    {
-        "id": 2,
-        "name": "Ford",
-        "model": "Mustang",
-        "year": 2017,
         "type": "AMT",
         "image": "https://uiparadox.co.uk/public/templates/rapid-ride/assets/media/cars/iamge.png"
     },
     {
+        "id": 2,
+        "name": "kia stinger awd",
+        "milage": "12km/h",
+        "year": 2017,
+        "type": "AMT",
+        "image": "https://uiparadox.co.uk/public/templates/rapid-ride/assets/media/cars/image2.png"
+    },
+    {
         "id": 3,
         "name": "Ford",
-        "model": "Mustang",
+        "milage": "12km/h",
         "year": 2017,
         "type": "AMT",
         "image": "https://uiparadox.co.uk/public/templates/rapid-ride/assets/media/cars/iamge3.png"
+    },
+    {
+        "id": 4,
+        "name": "mitsubishi",
+        "milage": "12km/h",
+        "year": 2018,
+        "type": "Mannual",
+        "image": "https://uiparadox.co.uk/public/templates/rapid-ride/assets/media/cars/iamge4.png"
+    },
+    {
+        "id": 5,
+        "name": "honda odyssey",
+        "milage": "12km/h",
+        "year": 2016,
+        "type": "AMT",
+        "image": "https://uiparadox.co.uk/public/templates/rapid-ride/assets/media/cars/iamge.png"
+    },
+    {
+        "id": 6,
+        "name": "kia stinger awd",
+        "milage": "12km/h",
+        "year": 2017,
+        "type": "AMT",
+        "image": "https://uiparadox.co.uk/public/templates/rapid-ride/assets/media/cars/image2.png"
+    },
+    {
+        "id": 7,
+        "name": "Ford",
+        "milage": "12km/h",
+        "year": 2017,
+        "type": "AMT",
+        "image": "https://uiparadox.co.uk/public/templates/rapid-ride/assets/media/cars/iamge3.png"
+    },
+    {
+        "id": 8,
+        "name": "mitsubishi",
+        "milage": "12km/h",
+        "year": 2018,
+        "type": "Mannual",
+        "image": "https://uiparadox.co.uk/public/templates/rapid-ride/assets/media/cars/iamge4.png"
     }
 ]
