@@ -7,7 +7,7 @@ interface MyComponentProps {
   data: any;
 }
 
-const Home: React.FC<MyComponentProps> = ({ data }) => {
+const Home: React.FC<MyComponentProps> = () => {
 
   return (
     <div >

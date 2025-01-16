@@ -26,9 +26,9 @@ const Product = ({ data }: { data: ProductData[] }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [selectedProduct, setSelectedProduct] = useState<ProductData | null>();
 
-    const openModal = () => {
-        setIsModalOpen(true);
-    }
+    // const openModal = () => {
+    //     setIsModalOpen(true);
+    // }
 
     const closeModal = () => {
         setIsModalOpen(false);
