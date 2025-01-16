@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "honda odyssey",
+        "name": "Toyota odyssey",
         "milage": "12km/h",
         "year": 2016,
         "type": "AMT",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "name": "kia stinger awd",
+        "name": "Sheverlet",
         "milage": "12km/h",
         "year": 2017,
         "type": "AMT",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "name": "Ford",
+        "name": "mitsubishi",
         "milage": "12km/h",
         "year": 2017,
         "type": "AMT",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "name": "mitsubishi",
+        "name": "Ford",
         "milage": "12km/h",
         "year": 2018,
         "type": "Mannual",

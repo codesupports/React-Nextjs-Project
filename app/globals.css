@@ -22,3 +22,7 @@ body {
   background: var(--background);
   font-family:'Roboto', Arial, Helvetica, sans-serif;
 }
+
+svg.calender-icon{
+  fill: white;
+}

@@ -2,7 +2,7 @@ import React from 'react'
 
 const header = () => {
   return (
-    <div className='container mx-auto'>
+    <div>
       <nav className='flex justify-between items-center py-4'>
         <div className='logo text-[30px] text-blue-600 font-semibold'>Car<span className='text-black'>Store</span></div>
         <ul className='flex gap-10 text-[20px]'>
