@@ -1,5 +1,4 @@
-import Image from "next/image";
-import About from "./src/pages/about";
+
 import Header from "./src/components/header";
 import Product from "./src/components/product";
 import Data from "./src/data/data.json";

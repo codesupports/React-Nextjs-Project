@@ -1,6 +1,7 @@
 import React from 'react'
+import Image from 'next/image';
 
-const header = () => {
+const Header = () => {
   return (
     <div>
       <nav className='flex justify-between items-center py-4'>
@@ -16,9 +17,9 @@ const header = () => {
       <p className='text-center text-gray-500 my-4'>
         <button className='bg-blue-600 text-white px-4 py-2 rounded-lg'>Get Started</button>
       </p>
-      <img src='/images/hero-group.png' alt='car' className='w-full  object-cover' />
+      <Image src='/images/hero-group.png' alt='car' width={20} height={20} className='w-full object-cover' />
     </div>
   )
 }
 
-export default header
+export default Header
