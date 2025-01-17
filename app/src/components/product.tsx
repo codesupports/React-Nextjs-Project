@@ -64,7 +64,7 @@ const Product = ({ data }: { data: ProductData[] }) => {
                                     {/* <img src="../../images/calender.svg" alt={product.name} className='w-[20px] h-[20px] object-fill text-white ml-1 group-hover:text-white' /> */}
                                     {/* <Icon name="icon-calender" size="20" className={"group-hover:text-[#2d74ba]" } /> */}
                                     <svg className='w-[20px] h-[20px] object-fit ml-2'>
-                                        <use xlinkHref={`../../images/sprite.svg#icon-calender`} className='fill-white ml-1 group-hover:fill-[#2d74ba]' />
+                                        <use xlinkHref={`/images/sprite.svg#icon-calender`} className='fill-white ml-1 group-hover:fill-[#2d74ba]' />
                                     </svg>
                                 </button>
                             </div>
