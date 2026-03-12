@@ -46,15 +46,15 @@ const Product = ({ data }: { data: ProductData[] }) => {
                 {product.map((product) => (
                     <div key={product.id} className='group lg:w-1/4 md:w-1/2 ' onClick={() => showPopup(product)}>
                         <div className='bg-[#F1F5FF] p-6 rounded-lg shadow-md transition-all duration-[600ms] cursor-pointer hover:bg-[#2d74ba] hover:text-white m-4'>
-                            <Image src={`/images/${product.image}`} alt={product.name} width={100} height={100} className='w-full object-fill' />
+                            <Image src={`/React-Nextjs-Project/images/${product.image}`} alt={product.name} width={100} height={100} className='w-full object-fill' />
                             <h1 className='text-lg font-bold first-line:capitalize pb-4'>{product.name} <span className='text-[14px]'>({product.year})</span></h1>
                             <div className='flex justify-between'>
                                 <div className='flex flex-col items-center'>
-                                    <Image src="/images/steering-wheel.svg" alt={product.name} width={100} height={100}  className='w-[20px] h-[20px] object-fill ' />
+                                    <Image src="/React-Nextjs-Project/images/steering-wheel.svg" alt={product.name} width={100} height={100}  className='w-[20px] h-[20px] object-fill ' />
                                     <p className='pt-1'>{product.type}</p>
                                 </div>
                                 <div className='flex flex-col items-center'>
-                                    <Image src="/images/gas.svg" alt={product.name} width={100} height={100}  className='w-[20px] h-[20px] object-fill' />
+                                    <Image src="/React-Nextjs-Project/images/gas.svg" alt={product.name} width={100} height={100}  className='w-[20px] h-[20px] object-fill' />
                                     <p className='pt-1'>{product.milage}</p>
                                 </div>
 
@@ -64,7 +64,7 @@ const Product = ({ data }: { data: ProductData[] }) => {
                                     {/* <img src="../../images/calender.svg" alt={product.name} className='w-[20px] h-[20px] object-fill text-white ml-1 group-hover:text-white' /> */}
                                     {/* <Icon name="icon-calender" size="20" className={"group-hover:text-[#2d74ba]" } /> */}
                                     <svg className='w-[20px] h-[20px] object-fit ml-2'>
-                                        <use xlinkHref={`/images/sprite.svg#icon-calender`} className='fill-white ml-1 group-hover:fill-[#2d74ba]' />
+                                        <use xlinkHref={`/React-Nextjs-Project/images/sprite.svg#icon-calender`} className='fill-white ml-1 group-hover:fill-[#2d74ba]' />
                                     </svg>
                                 </button>
                             </div>

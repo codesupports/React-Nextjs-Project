@@ -29,7 +29,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, data }) => {
         <button  onClick={onClose} className="px-2 py-1 bg-[#2d74ba] text-white rounded-lg text-sm hover:bg-red-600 block mx-auto absolute right-2 top-2" >X </button>
         <div className='flex'>
           <div className='w-1/2'>
-            <Image src={`/images/${data?.image}`} loading='lazy' alt={`${data?.name}`} width={100} height={100} className='w-full object-fill' />
+            <Image src={`/React-Nextjs-Project/images/${data?.image}`} loading='lazy' alt={`${data?.name}`} width={100} height={100} className='w-full object-fill' />
           </div>
           <div className='w-1/2 p-4'>
             <h2 className="text-xl font-semibold text-center mb-4 capitalize">{data?.name}</h2>
