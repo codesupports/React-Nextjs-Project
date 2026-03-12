@@ -1,5 +1,10 @@
 "use client"
 import React, { useEffect, useState } from 'react'
+import { Metadata } from 'next';
+
+// export const metadata: Metadata = {
+//   title:"About us",
+// }
 
 const About = () => {
   interface User {
@@ -24,13 +29,17 @@ const About = () => {
   }, [])
 
 
-  return <div className='px-6'>
-    <h1 className='text-[20px] bg-slate-300 p-2'>About us page</h1>
-    <ul>
-      {users.map((user) => (
-        <li key={user.id} className='border-b py-2 pl-4'>{user.name}</li>
-      ))}
-    </ul>
-  </div>
+  return (
+    <>
+      <div className='px-6'>
+        <h1 className='text-[20px] bg-slate-300 p-2'>About us page</h1>
+        <ul>
+          {users.map((user) => (
+            <li key={user.id} className='border-b py-2 pl-4'>{user.name}</li>
+          ))}
+        </ul>
+      </div>
+    </>
+  )
 }
 export default About;

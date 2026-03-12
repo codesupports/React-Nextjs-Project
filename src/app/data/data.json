@@ -33,34 +33,34 @@
     },
     {
         "id": 5,
-        "name": "honda odyssey",
+        "name": "BMW",
         "milage": "12km/h",
         "year": 2016,
         "type": "AMT",
-        "image": "iamge1.png"
+        "image": "carlist-15.jpg"
     },
     {
         "id": 6,
-        "name": "kia stinger awd",
+        "name": "Renault Duster",
         "milage": "12km/h",
         "year": 2017,
         "type": "AMT",
-        "image": "image2.png"
+        "image": "vthumb_carlist-5.jpg"
     },
     {
         "id": 7,
-        "name": "Ford",
+        "name": "Audi A4",
         "milage": "12km/h",
         "year": 2017,
         "type": "AMT",
-        "image": "iamge3.png"
+        "image": "vthumb_carlist-12.jpg"
     },
     {
         "id": 8,
-        "name": "mitsubishi",
+        "name": "Mercedies Benz",
         "milage": "12km/h",
         "year": 2018,
         "type": "Mannual",
-        "image": "iamge4.png"
+        "image": "vthumb_carlist-16.jpg"
     }
 ]
